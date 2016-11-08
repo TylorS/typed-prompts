@@ -36,11 +36,11 @@ prompt<Answers>([
 
 # API
 
-### `prompt<T>(questions: Array<Question>, options?: { stdout: WritableStream, stdin: ReadableStream }): Promise<T>;`
+#### `prompt<T>(questions: Array<Question>, options?: { stdout: WritableStream, stdin: ReadableStream }): Promise<T>;`
 
 This is the main function exposed by this library. It is responsible for asking your questions.
 
-### `separator(): Separator`
+#### `separator(): Separator`
 
 This creates a separator object to place boundaries in a list of choices for ListQuestion RawListQuestion and CheckboxQuestion.
 
