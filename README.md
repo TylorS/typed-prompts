@@ -51,8 +51,8 @@ This creates a separator object to place boundaries in a list of choices for Lis
 #### `confirm(name, message[, options]): ConfirmQuestion`
 #### `editor(name, message, [, options]): EditorQuestion`
 #### `expand(name, message, choices[, options]): ExpandQuestion`
-#### `input(name, message[, options]): InputQueston`
-#### `list(name, message, choices[, options]): ListQustion`
+#### `input(name, message[, options]): InputQuestion`
+#### `list(name, message, choices[, options]): ListQuestion`
 #### `password(name, message[, options]): PasswordQuestion`
 #### `rawList(name, message, choices[, options]): RawListQuestion`
 
