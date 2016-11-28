@@ -1,3 +1,13 @@
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/TylorS/typed-prompts/compare/v1.1.0...v1.2.0) (2016-11-28)
+
+
+### Bug Fixes
+
+* **declaration:** Use the Separator class instead of separator method ([88d8d3a](https://github.com/TylorS/typed-prompts/commit/88d8d3a))
+
+
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/TylorS/typed-prompts/compare/v1.0.0...v1.1.0) (2016-11-27)
 
