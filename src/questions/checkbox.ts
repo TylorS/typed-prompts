@@ -7,6 +7,7 @@ export interface CheckboxQuestion extends BaseQuestion {
   filter?: (answer: any) => any | Promise<any>;
   validate?: (answer: any) => boolean | Promise<boolean> | string | Promise<string>;
   default?: Default<Array<any>>;
+  pageSize?: number;
 }
 
 export function checkbox(
@@ -18,6 +19,7 @@ export function checkbox(
     filter?: (answer: any) => any | Promise<any>;
     validate?: (answer: any) => boolean | Promise<boolean> | string | Promise<string>;
     default?: Default<Array<any>>;
+    pageSize?: number;
   }
 ): CheckboxQuestion {
   return Object.assign({}, { type: 'checkbox' as 'checkbox', name, message, choices }, options);

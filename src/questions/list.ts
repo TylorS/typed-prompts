@@ -7,6 +7,7 @@ export interface ListQuestion extends BaseQuestion {
   paginated?: boolean;
   filter?: (answer: any) => any | Promise<any>;
   default?: Default<string | number>;
+  pageSize?: number;
 }
 
 export type ListChoices = string | ListChoice | Separator
@@ -22,6 +23,7 @@ export function list (name: string, message: Message, choices: Choices<ListChoic
   paginated?: boolean;
   filter?: (answer: any) => any | Promise<any>;
   default?: Default<string | number>;
+  pageSize?: number;
 }): ListQuestion {
   return Object.assign({}, { type: 'list' as 'list', name, message, choices }, options);
 }
