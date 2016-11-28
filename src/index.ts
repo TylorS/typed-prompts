@@ -1,8 +1,8 @@
-import { createPromptModule, separator as createSeparator } from 'inquirer';
+import { createPromptModule, Separator } from 'inquirer';
 
 export * from './questions';
 
-import { Separator, Question } from './questions';
+import { Question } from './questions';
 
 export interface PromptFn {
   (questions: Array<Question>): Promise<any>;
@@ -26,5 +26,5 @@ export const prompt: PromptFn = function prompt<T>(
 };
 
 export function separator (): Separator {
-  return createSeparator();
+  return new Separator();
 }
