@@ -7,6 +7,6 @@ declare module 'inquirer' {
       output?: NodeJS.WritableStream; }): <T>(questions: Array<any>) => Promise<T>;
 
   export class Separator {
-
+    constructor(separator?: string)
   }
 }
