@@ -1,3 +1,13 @@
+<a name="1.3.0"></a>
+# [1.3.0](https://github.com/TylorS/typed-prompts/compare/v1.2.0...v1.3.0) (2016-11-28)
+
+
+### Bug Fixes
+
+* **separator:** Separator allows for a string to be passed. Added that ([e9fe112](https://github.com/TylorS/typed-prompts/commit/e9fe112))
+
+
+
 <a name="1.2.0"></a>
 # [1.2.0](https://github.com/TylorS/typed-prompts/compare/v1.1.0...v1.2.0) (2016-11-28)
 
