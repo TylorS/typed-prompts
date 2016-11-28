@@ -1,3 +1,13 @@
+<a name="1.4.0"></a>
+# [1.4.0](https://github.com/TylorS/typed-prompts/compare/v1.3.0...v1.4.0) (2016-11-28)
+
+
+### Bug Fixes
+
+* **questionoptions:** Added pageSize in options for list, rawList, expand and checkbox ([50a624a](https://github.com/TylorS/typed-prompts/commit/50a624a))
+
+
+
 <a name="1.3.0"></a>
 # [1.3.0](https://github.com/TylorS/typed-prompts/compare/v1.2.0...v1.3.0) (2016-11-28)
 
