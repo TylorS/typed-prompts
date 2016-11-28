@@ -25,6 +25,6 @@ export const prompt: PromptFn = function prompt<T>(
   return createPromptModule({ input: stdio.stdin, output: stdio.stdout })<T>(questions);
 };
 
-export function separator (): Separator {
-  return new Separator();
+export function separator (useString?: string): Separator {
+  return new Separator(useString);
 }
