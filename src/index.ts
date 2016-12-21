@@ -1,3 +1,4 @@
+import './inquirer';
 import { createPromptModule, Separator } from 'inquirer';
 
 export * from './questions';
