@@ -1,5 +1,7 @@
 # Typed Prompts
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/TylorS/typed-prompts.svg)](https://greenkeeper.io/)
+
 Well-Typed, written in TypeScript, interactive terminal prompts.
 
 This is really just a typed wrapper around the robust library
